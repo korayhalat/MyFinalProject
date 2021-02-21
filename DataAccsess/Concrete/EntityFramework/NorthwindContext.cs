@@ -11,7 +11,7 @@ namespace DataAccsess.Concrete.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)//Burası benim veri tabanım neyi kullanacak onu belirttiğimiz yer.
         {
-            optionsBuilder.UseSqlServer(@" Server =(localdb)\mssqlllocaldb;Database=Northwind;Trusted_Connection=true");
+            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=Northwind;Trusted_Connection=true");
         }
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }

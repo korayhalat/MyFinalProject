@@ -1,4 +1,5 @@
 ﻿using DataAccsess.Abstract;
+using DataAccsess.Concrete.EntityFramework;
 using Entities.Concrete;
 using System;
 using System.Collections.Generic;
@@ -43,9 +44,19 @@ namespace DataAccsess.Concrete.InMemory //Abstract altındaki IProductdal inrefa
 
         }
 
+        public Product Get(Expression<Func<Product, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Product> GetAll()
         {
             return _products;
+        }
+
+        public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)
+        {
+            throw new NotImplementedException();
         }
 
         public List<Product> GetAllByCategory(int categoryId)
@@ -60,19 +71,6 @@ namespace DataAccsess.Concrete.InMemory //Abstract altındaki IProductdal inrefa
             productToUpdate.CategoryId = product.CategoryId;
             productToUpdate.UniPrice = product.UniPrice;
             productToUpdate.UnitsInStock = product.UnitsInStock;
-        }
-        public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)
-        {
-
-        }
-        public List<Product> Get(Expression<Func<Product, bool>> filter)
-        {
-
-        }
-
-        Product IEntityRepository<Product>.Get(Expression<Func<Product, bool>> filter)
-        {
-            throw new NotImplementedException();
-        }
+        }              
     }
 }
