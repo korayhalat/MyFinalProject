@@ -1692,9 +1692,25 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
@@ -6202,6 +6218,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
@@ -6210,6 +6231,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Core >= 1.0.0",
       "Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.11",
       "NETStandard.Library >= 2.0.3"
@@ -6221,11 +6243,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\TestFinalProject\\DataAccsess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\projects\\KampFinalProject\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\projects\\TestFinalProject\\DataAccsess\\DataAccess.csproj",
+      "projectPath": "C:\\projects\\KampFinalProject\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\koray\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\TestFinalProject\\DataAccsess\\obj\\",
+      "outputPath": "C:\\projects\\KampFinalProject\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\koray\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6242,8 +6264,11 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\projects\\TestFinalProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\projects\\TestFinalProject\\Entities\\Entities.csproj"
+            "C:\\projects\\KampFinalProject\\Core\\Core.csproj": {
+              "projectPath": "C:\\projects\\KampFinalProject\\Core\\Core.csproj"
+            },
+            "C:\\projects\\KampFinalProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\projects\\KampFinalProject\\Entities\\Entities.csproj"
             }
           }
         }

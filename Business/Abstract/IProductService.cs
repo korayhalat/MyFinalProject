@@ -1,4 +1,5 @@
 ﻿using Entities.Concrete;
+using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,16 +8,10 @@ namespace Business.Abstract
 {
     public interface IProductService
     {
-        List<Product> GetAll(); //Burda Product ı using Entities.Concrete kullanabilme için.Business e sağ tıkla.Add-Project Referance..
-                                //Ordan Entities ve DataAccsess i tıklayıp ok ledik.Daha sonra product ın üstünden ampüle gelip,Entities.cancrete i ekledik.
-    
-    
-    
-    
-    
-    
-    
-    
-    }                           
+        List<Product> GetAll();
+        List<Product> GetAllByCategoryId(int id);
+        List<Product> GetByUnitPrice(decimal min, decimal max);
 
+        List<ProductDetailDto> GetProductDetails();
+    }
 }

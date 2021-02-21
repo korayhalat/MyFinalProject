@@ -1692,10 +1692,24 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
       "DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Core": "1.0.0",
           "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
         },
@@ -1709,6 +1723,9 @@
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
@@ -6216,10 +6233,15 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
     "DataAccess/1.0.0": {
       "type": "project",
-      "path": "../DataAccsess/DataAccess.csproj",
-      "msbuildProject": "../DataAccsess/DataAccess.csproj"
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
     },
     "Entities/1.0.0": {
       "type": "project",
@@ -6240,11 +6262,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\TestFinalProject\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\projects\\KampFinalProject\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "C:\\projects\\TestFinalProject\\Business\\Business.csproj",
+      "projectPath": "C:\\projects\\KampFinalProject\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\koray\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\TestFinalProject\\Business\\obj\\",
+      "outputPath": "C:\\projects\\KampFinalProject\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\koray\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6261,11 +6283,11 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\projects\\TestFinalProject\\DataAccsess\\DataAccess.csproj": {
-              "projectPath": "C:\\projects\\TestFinalProject\\DataAccsess\\DataAccess.csproj"
+            "C:\\projects\\KampFinalProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\projects\\KampFinalProject\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\projects\\TestFinalProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\projects\\TestFinalProject\\Entities\\Entities.csproj"
+            "C:\\projects\\KampFinalProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\projects\\KampFinalProject\\Entities\\Entities.csproj"
             }
           }
         }

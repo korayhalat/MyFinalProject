@@ -9,7 +9,7 @@
       "ConsoleUI/1.0.0": {
         "dependencies": {
           "Business": "1.0.0",
-          "DataAccsess": "1.0.0",
+          "DataAccess": "1.0.0",
           "Entities": "1.0.0"
         },
         "runtime": {
@@ -1018,23 +1018,35 @@
       },
       "Business/1.0.0": {
         "dependencies": {
-          "DataAccsess": "1.0.0",
+          "DataAccess": "1.0.0",
           "Entities": "1.0.0"
         },
         "runtime": {
           "Business.dll": {}
         }
       },
-      "DataAccsess/1.0.0": {
+      "Core/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
+        },
+        "runtime": {
+          "Core.dll": {}
+        }
+      },
+      "DataAccess/1.0.0": {
+        "dependencies": {
+          "Core": "1.0.0",
           "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
         },
         "runtime": {
-          "DataAccsess.dll": {}
+          "DataAccess.dll": {}
         }
       },
       "Entities/1.0.0": {
+        "dependencies": {
+          "Core": "1.0.0"
+        },
         "runtime": {
           "Entities.dll": {}
         }
@@ -1738,7 +1750,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DataAccsess/1.0.0": {
+    "Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

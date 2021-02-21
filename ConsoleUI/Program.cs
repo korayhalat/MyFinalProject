@@ -5,15 +5,34 @@ using System;
 
 namespace ConsoleUI
 {
+    //SOLID
+    //Open Closed Principle
     class Program
     {
         static void Main(string[] args)
         {
-            ProductManaeger productManaeger = new ProductManaeger(new EfProductDal()); //IProductDal interface i new leyemediğimiz için onun referansını tutan InMemoryProductDal ı new liyoruz.
+            //Data Transformation Object
+            ProductTest();
+            //IoC 
+            //CategoryTest();
+        }
 
-            foreach (var product in productManaeger.GetAll())
+        private static void CategoryTest()
+        {
+            CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
+            foreach (var category in categoryManager.GetAll())
             {
-                Console.WriteLine(product.ProductName);
+                Console.WriteLine(category.CategoryName);
+            }
+        }
+
+        private static void ProductTest()
+        {
+            ProductManager productManager = new ProductManager(new EfProductDal());
+
+            foreach (var product in productManager.GetProductDetails())
+            {
+                Console.WriteLine(product.ProductName + "/" + product.CategoryName);
             }
         }
     }
