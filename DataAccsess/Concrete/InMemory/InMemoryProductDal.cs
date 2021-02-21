@@ -3,6 +3,7 @@ using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace DataAccsess.Concrete.InMemory //Abstract altındaki IProductdal inreface nin Somut sayfasını InMemory dosyasının içinde
@@ -59,6 +60,19 @@ namespace DataAccsess.Concrete.InMemory //Abstract altındaki IProductdal inrefa
             productToUpdate.CategoryId = product.CategoryId;
             productToUpdate.UniPrice = product.UniPrice;
             productToUpdate.UnitsInStock = product.UnitsInStock;
+        }
+        public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)
+        {
+
+        }
+        public List<Product> Get(Expression<Func<Product, bool>> filter)
+        {
+
+        }
+
+        Product IEntityRepository<Product>.Get(Expression<Func<Product, bool>> filter)
+        {
+            throw new NotImplementedException();
         }
     }
 }
