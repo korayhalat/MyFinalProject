@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataAccess.Abstract   //Dal : DataAccsessLayer.DataAccses altında Abstract da interface class ı olşturuken sonuna Dal ekliyoruz.
+namespace DataAccess.Abstract
 {
     public interface IProductDal:IEntityRepository<Product>
     {

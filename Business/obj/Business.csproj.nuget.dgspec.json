@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\KampFinalProject\\Business\\Business.csproj": {}
+    "C:\\projects\\MyFinalProject\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\projects\\KampFinalProject\\Business\\Business.csproj": {
+    "C:\\projects\\MyFinalProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\KampFinalProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\projects\\MyFinalProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\projects\\KampFinalProject\\Business\\Business.csproj",
+        "projectPath": "C:\\projects\\MyFinalProject\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\koray\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\KampFinalProject\\Business\\obj\\",
+        "outputPath": "C:\\projects\\MyFinalProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\koray\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\projects\\KampFinalProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\projects\\KampFinalProject\\DataAccess\\DataAccess.csproj"
+              "C:\\projects\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\projects\\MyFinalProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\projects\\KampFinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\projects\\KampFinalProject\\Entities\\Entities.csproj"
+              "C:\\projects\\MyFinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\projects\\MyFinalProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -47,6 +47,34 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.5.1, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -68,14 +96,14 @@
         }
       }
     },
-    "C:\\projects\\KampFinalProject\\Core\\Core.csproj": {
+    "C:\\projects\\MyFinalProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\KampFinalProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\projects\\MyFinalProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\projects\\KampFinalProject\\Core\\Core.csproj",
+        "projectPath": "C:\\projects\\MyFinalProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\koray\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\KampFinalProject\\Core\\obj\\",
+        "outputPath": "C:\\projects\\MyFinalProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\koray\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -104,15 +132,43 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.5.1, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.11, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
             }
           },
           "imports": [
@@ -129,14 +185,14 @@
         }
       }
     },
-    "C:\\projects\\KampFinalProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\projects\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\KampFinalProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\projects\\MyFinalProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\projects\\KampFinalProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\projects\\MyFinalProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\koray\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\KampFinalProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\projects\\MyFinalProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\koray\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -153,11 +209,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\projects\\KampFinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\projects\\KampFinalProject\\Core\\Core.csproj"
+              "C:\\projects\\MyFinalProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\projects\\MyFinalProject\\Core\\Core.csproj"
               },
-              "C:\\projects\\KampFinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\projects\\KampFinalProject\\Entities\\Entities.csproj"
+              "C:\\projects\\MyFinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\projects\\MyFinalProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -197,14 +253,14 @@
         }
       }
     },
-    "C:\\projects\\KampFinalProject\\Entities\\Entities.csproj": {
+    "C:\\projects\\MyFinalProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\KampFinalProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\projects\\MyFinalProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\projects\\KampFinalProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\projects\\MyFinalProject\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\koray\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\KampFinalProject\\Entities\\obj\\",
+        "outputPath": "C:\\projects\\MyFinalProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\koray\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -221,8 +277,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\projects\\KampFinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\projects\\KampFinalProject\\Core\\Core.csproj"
+              "C:\\projects\\MyFinalProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\projects\\MyFinalProject\\Core\\Core.csproj"
               }
             }
           }
