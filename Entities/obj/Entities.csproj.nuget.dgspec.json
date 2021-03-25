@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\MyFinalProject\\Entities\\Entities.csproj": {}
+    "C:\\Users\\HP\\Desktop\\Projeler\\MyFinalProject\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\projects\\MyFinalProject\\Core\\Core.csproj": {
+    "C:\\Users\\HP\\Desktop\\Projeler\\MyFinalProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\MyFinalProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Projeler\\MyFinalProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\projects\\MyFinalProject\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\koray\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\MyFinalProject\\Core\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Projeler\\MyFinalProject\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Projeler\\MyFinalProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\koray\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,6 +74,10 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json.Schema": {
+              "target": "Package",
+              "version": "[3.0.14, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.8.0, )"
@@ -89,21 +93,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\projects\\MyFinalProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\HP\\Desktop\\Projeler\\MyFinalProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\MyFinalProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Projeler\\MyFinalProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\projects\\MyFinalProject\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\koray\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\MyFinalProject\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Projeler\\MyFinalProject\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Projeler\\MyFinalProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\koray\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -117,8 +121,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\projects\\MyFinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\projects\\MyFinalProject\\Core\\Core.csproj"
+              "C:\\Users\\HP\\Desktop\\Projeler\\MyFinalProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\Projeler\\MyFinalProject\\Core\\Core.csproj"
               }
             }
           }
@@ -150,7 +154,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

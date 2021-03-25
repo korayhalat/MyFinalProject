@@ -21,7 +21,7 @@ namespace WebAPI.Controllers
         [HttpGet("getall")]
         public IActionResult GetAll()
         {
-            
+           
             var result = _categoryService.GetAll();
             if (result.Success)
             {
@@ -30,16 +30,5 @@ namespace WebAPI.Controllers
             return BadRequest(result);
 
         }
-        //[HttpGet("getbyid")]
-        //public IActionResult GetById(int id)
-        //{
-        //    var result = _productService.GetById(id);
-        //    if (result.Success)
-        //    {
-        //        return Ok(result);
-        //    }
-
-        //    return BadRequest(result);
-        //}
     }
 }

@@ -22,3 +22,15 @@ C:\projects\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.Cor
 C:\projects\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
 C:\projects\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.dll
 C:\projects\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
+C:\Users\HP\Desktop\Projeler\MyFinalProject\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+C:\Users\HP\Desktop\Projeler\MyFinalProject\Entities\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\HP\Desktop\Projeler\MyFinalProject\Entities\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\HP\Desktop\Projeler\MyFinalProject\Entities\bin\Debug\netstandard2.0\Core.dll
+C:\Users\HP\Desktop\Projeler\MyFinalProject\Entities\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\HP\Desktop\Projeler\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Projeler\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Projeler\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Users\HP\Desktop\Projeler\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Projeler\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
+C:\Users\HP\Desktop\Projeler\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.dll
+C:\Users\HP\Desktop\Projeler\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
